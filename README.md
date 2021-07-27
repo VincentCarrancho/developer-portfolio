@@ -6,5 +6,5 @@ As of July 27 2021, this page was just made with vanilla Javascript, HTML, and C
 
 ## Layout
 
-This is the basic layout I designed in Figma.
+This is the basic layout I designed in Figma. I went for a minimal design look, although the color of the background is subject to change. Otherwise, it's all good!
 ![Layout](github/img/layout.png?raw=true)
