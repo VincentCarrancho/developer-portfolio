@@ -7,4 +7,4 @@ As of July 27 2021, this page was just made with vanilla Javascript, HTML, and C
 ## Layout
 
 This is the basic layout I designed in Figma.
-![Alt text](github/img/layout.png?raw=true "Title")
+![Layout](github/img/layout.png =500x500)
