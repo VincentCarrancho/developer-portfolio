@@ -1,0 +1,48 @@
+.container-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "python- java- Dart-"
+    "Flutter- Cpp- arduinoc-"
+    "html- CSS- Figma-";
+}
+
+.python- {
+  grid-area: python-;
+}
+
+.java- {
+  grid-area: java-;
+}
+
+.Dart- {
+  grid-area: Dart-;
+}
+
+.Flutter- {
+  grid-area: Flutter-;
+}
+
+.Cpp- {
+  grid-area: Cpp-;
+}
+
+.arduinoc- {
+  grid-area: arduinoc-;
+}
+
+.html- {
+  grid-area: html-;
+}
+
+.CSS- {
+  grid-area: CSS-;
+}
+
+.Figma- {
+  grid-area: Figma-;
+}
+/* TODO: make style the buttons */
