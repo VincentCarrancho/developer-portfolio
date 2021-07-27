@@ -7,21 +7,23 @@
     <title>Vincent Carrancho</title>
   </head>
   <body>
+    <!-- 
+          TODO: Make the for every title text, add a CSS selector that corresponds to stroked and white
+       -->
     <link rel="stylesheet" href="global.css" />
-
     <div>
-      <!--divider for the home page -->
-      <div>
-        <!-- divider for the title page. -->
-        <h1>I'M VINCENT</h1>
-        <h1>CARRANCHO</h1>
-      </div>
-      <div>
-        <h3>
-          I am a student studying Computer Science at Florida International<br />
-          University. Currently looking for opportunities to learn and create!
-        </h3>
-      </div>
+      <!-- 
+        divider for the title page. 
+        TODO: Format and break the h1 tags.
+    -->
+      <h1 id="title-page">I'M VINCENT</h1>
+      <h1>CARRANCHO</h1>
+    </div>
+    <div>
+      <h3>
+        I am a student studying Computer Science at Florida International<br />
+        University. Currently looking for opportunities to learn and create!
+      </h3>
     </div>
 
     <div>
@@ -47,7 +49,7 @@
         <h1>And Skills</h1>
       </div>
 
-      <!-- Education Divs below -->
+      <!-- Education Dividers/Text below -->
       <div>
         <h2>Florida International University; 2020 to 2024</h2>
         <ul>
@@ -63,16 +65,76 @@
         </ul>
       </div>
       <div class="container-skills">
+        <!-- container for the skills list -->
         <link rel="stylesheet" href="buttonStyles.css" />
-        <div class="python-">Python</div>
-        <div class="java-">Java</div>
-        <div class="Dart-">Dart</div>
-        <div class="Flutter-">Flutter</div>
-        <div class="Cpp-">C++</div>
-        <div class="arduinoc-">Arduino C</div>
-        <div class="html-">HTML</div>
-        <div class="CSS-">CSS</div>
-        <div class="Figma-">Figma</div>
+        <div class="python-container">Python</div>
+        <div class="java-container">Java</div>
+        <div class="Dart-container">Dart</div>
+        <div class="Flutter-container">Flutter</div>
+        <div class="Cpp-container">C++</div>
+        <div class="arduinoc-container">Arduino C</div>
+        <div class="html-container">HTML</div>
+        <div class="CSS-container">CSS</div>
+        <div class="Figma-container">Figma</div>
+      </div>
+    </div>
+
+    <div>
+      <h1>Experience</h1>
+      <div>And Projects</div>
+
+      <div>
+        <!-- Project 1 Div -->
+        <h2>FIU COVID-19 App Prototype – Spring 2021</h2>
+        <p>
+          During the 2021 spring semester, I was assigned to lead a team of 12
+          people to develop a COVID-19 app using Flutter throughout a 9 week
+          development period. Despite having almost no experience in Flutter (or
+          any type of mobile development experience), we managed to create a
+          working prototype.
+          <br /><br />
+          The app we created was an app that served two purposes. The first one
+          being to help students complete a safety check before they came on
+          campus. The second purpose was to let people know if they were exposed
+          to COVID-19 while on school grounds–unfortunately, we were not able to
+          implement the bluetooth protocols during the development period. We
+          used Firebase for our backend, Flutter as the framework to develop our
+          app for both platforms of phones, and Figma to design the user
+          interface.
+        </p>
+      </div>
+      <br />
+      <div>
+        <!-- Project 2 Div -->
+        <h2>The Social Distancing Graduation Cap – Spring 2020</h2>
+        <p>
+          Due to COVID-19, everyone’ morale was low. I saw an opportunity to
+          make other laugh and enjoy themselves while riding out the pandemic. I
+          wanted to make something so goofy that related to the situation we
+          were in. Therefore, I decided to get creative with my graduation cap.
+          What I did was that I attached an ultrasonic sensor, and Arduino, and
+          a beeper on my graduation cap.
+          <br /><br />
+          What the graduation cap did was that the ultrasonic sensor feeds
+          distance readings into the Arduino. The Arduino processes the data
+          from the sensor and performs calculations that controls the timing of
+          the beeper. The end result was a graduation cap that starts beeping
+          when it detects something is 6ft or closer–then beeps faster if the
+          object does get closer.
+        </p>
+      </div>
+      <div>
+        <h1>Say Hello</h1>
+        <h1>To Me</h1>
+        <p>
+          <a href="">vincentcarrancho@gmail.com</a>
+        </p>
+        <p>
+          <a href="">LinkedIn</a>
+        </p>
+        <p>
+          <a href="">Github</a>
+        </p>
       </div>
     </div>
   </body>

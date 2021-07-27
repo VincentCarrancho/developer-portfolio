@@ -5,44 +5,44 @@
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "python- java- Dart-"
-    "Flutter- Cpp- arduinoc-"
-    "html- CSS- Figma-";
+    "python-container java-container Dart-container"
+    "Flutter-container Cpp-container arduinoc-container"
+    "html-container CSS-container Figma-container";
+}
+/* TODO: add button styling */
+.python-container {
+  grid-area: python-container;
 }
 
-.python- {
-  grid-area: python-;
+.java-container {
+  grid-area: java-container;
 }
 
-.java- {
-  grid-area: java-;
+.Dart-container {
+  grid-area: Dart-container;
 }
 
-.Dart- {
-  grid-area: Dart-;
+.Flutter-container {
+  grid-area: Flutter-container;
 }
 
-.Flutter- {
-  grid-area: Flutter-;
+.Cpp-container {
+  grid-area: Cpp-container;
 }
 
-.Cpp- {
-  grid-area: Cpp-;
+.arduinoc-container {
+  grid-area: arduinoc-container;
 }
 
-.arduinoc- {
-  grid-area: arduinoc-;
+.html-container {
+  grid-area: html-container;
 }
 
-.html- {
-  grid-area: html-;
+.CSS-container {
+  grid-area: CSS-container;
 }
 
-.CSS- {
-  grid-area: CSS-;
-}
-
-.Figma- {
-  grid-area: Figma-;
+.Figma-container {
+  grid-area: Figma-container;
 }
 /* TODO: make style the buttons */

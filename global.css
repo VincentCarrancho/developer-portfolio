@@ -1,20 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300;400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300;400;700;800&display=swap");
 
 body {
-    background-color: #FFDDCA;
-    font-family: 'Be Vietnam', sans-serif;
+  background-color: #ffddca;
+  font-family: "Be Vietnam", sans-serif;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
-h3, h2, p {
-    color: #4A4A4A;
+h3,
+h2,
+p {
+  color: #4a4a4a;
 }
 h3 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 p {
-    font-weight: 300;
+  font-weight: 300;
 }
