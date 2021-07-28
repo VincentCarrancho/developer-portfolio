@@ -1,0 +1,15 @@
+.img-div {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: #4a4a4a;
+  margin: 0%;
+  padding: 0%;
+}
+
+.img {
+  width: 1200px;
+  filter: grayscale();
+  margin: 0%;
+  padding: 0%;
+}
