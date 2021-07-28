@@ -8,31 +8,35 @@
   </head>
   <body>
     <!-- 
-          TODO: Make the for every title text, add a CSS selector that corresponds to stroked and white
+          TODO: FIX THE SECTION TITLES; IF NOT THEN MAKE AN SVG
        -->
     <link rel="stylesheet" href="global.css" />
-    <div>
-      <!-- 
-        divider for the title page. 
-        TODO: Format and break the h1 tags.
-    -->
-      <h1 id="title-page">I'M VINCENT</h1>
-      <h1>CARRANCHO</h1>
-    </div>
-    <div>
-      <h3>
-        I am a student studying Computer Science at Florida International<br />
-        University. Currently looking for opportunities to learn and create!
-      </h3>
+    <div class="home-page">
+      <!--
+            divider for the title page.
+            TODO: Format and break the h1 tags.
+        -->
+      <div id="title-div">
+        <h1 id="title-pagel1">I'M VINCENT</h1>
+        <h1 id="title-pagel2">CARRANCHO</h1>
+      </div>
+      <div>
+        <h3>
+          I am a student studying Computer Science at Florida International<br />
+          University. Currently looking for opportunities to learn and create!
+        </h3>
+      </div>
     </div>
 
-    <div>
+    <div class="about-page">
       <!-- About me page -->
       <div>
         <!-- TODO: Add image -->
       </div>
       <div>
-        <h1>About Me</h1>
+        <div id="title-div">
+          <h1 id="title-textl1">About Me</h1>
+        </div>
         <p>
           Before I swtiched to Computer Science, I was a Mechanical Engineering
           Major. But once I needed to start programming Arduinos for various
@@ -42,47 +46,71 @@
       </div>
     </div>
 
-    <div>
+    <div class="education-skills-page">
       <!-- divider for the Education and skills page -->
-      <div>
-        <h1>Education</h1>
-        <h1>And Skills</h1>
+      <div id="title-div">
+        <h1 id="title-textl2">Education</h1>
+        <h1 id="title-textl1">And Skils</h1>
       </div>
 
       <!-- Education Dividers/Text below -->
       <div>
-        <h2>Florida International University; 2020 to 2024</h2>
+        <h2 id="school-header">
+          Florida International University; 2020 to 2024
+        </h2>
         <ul>
-          <li><p>Bachelor of Science in Computer Science</p></li>
-          <li><p>3.89 Cumulative Grade Point Average</p></li>
+          <li><p id="edu-list">Bachelor of Science in Computer Science</p></li>
+          <li><p id="edu-list">3.89 Cumulative Grade Point Average</p></li>
         </ul>
       </div>
       <div>
-        <h2>Robert Morgan Educational Center; 2016 to 2020</h2>
+        <h2 id="school-header">
+          Robert Morgan Educational Center; 2016 to 2020
+        </h2>
         <ul>
-          <li><p>High School Diploma</p></li>
-          <li><p>Engineering Academy</p></li>
+          <li><p id="edu-list">High School Diploma</p></li>
+          <li><p id="edu-list">Engineering Academy</p></li>
         </ul>
       </div>
-      <div class="container-skills">
+      <div class="container-skills-page">
         <!-- container for the skills list -->
         <!-- TODO: make sub div that is the global button style -->
         <link rel="stylesheet" href="buttonStyles.css" />
-        <div class="python-container">Python</div>
-        <div class="java-container">Java</div>
-        <div class="Dart-container">Dart</div>
-        <div class="Flutter-container">Flutter</div>
-        <div class="Cpp-container">C++</div>
-        <div class="arduinoc-container">Arduino C</div>
-        <div class="html-container">HTML</div>
-        <div class="CSS-container">CSS</div>
-        <div class="Figma-container">Figma</div>
+        <div class="python-container">
+          <div class="skills-button">Python</div>
+        </div>
+        <div class="java-container">
+          <div class="skills-button">Java</div>
+        </div>
+        <div class="Dart-container">
+          <div class="skills-button">Dart</div>
+        </div>
+        <div class="Flutter-container">
+          <div class="skills-button">Flutter</div>
+        </div>
+        <div class="Cpp-container">
+          <div class="skills-button">C++</div>
+        </div>
+        <div class="arduinoc-container">
+          <div class="skills-button">Arduino C</div>
+        </div>
+        <div class="html-container">
+          <div class="skills-button">HTML</div>
+        </div>
+        <div class="CSS-container">
+          <div class="skills-button">CSS</div>
+        </div>
+        <div class="Figma-container">
+          <div class="skills-button">Figma</div>
+        </div>
       </div>
     </div>
 
-    <div>
-      <h1>Experience</h1>
-      <div>And Projects</div>
+    <div class="experience-proj-page">
+      <div id="title-div">
+        <h1 id="title-textl2">Experiences</h1>
+        <h1 id="title-textl1">And Projects</h1>
+      </div>
 
       <div>
         <!-- Project 1 Div -->
@@ -124,19 +152,24 @@
           object does get closer.
         </p>
       </div>
-      <div>
-        <h1>Say Hello</h1>
-        <h1>To Me</h1>
-        <p>
-          <a href="">vincentcarrancho@gmail.com</a>
-        </p>
-        <p>
-          <a href="">LinkedIn</a>
-        </p>
-        <p>
-          <a href="">Github</a>
-        </p>
+    </div>
+    <div class="contact-page">
+      <div id="title-div">
+        <h1 id="title-textl2">Say Hello</h1>
+        <h1 id="title-textl1">To Me</h1>
       </div>
+      <div style="height: 10vh"></div>
+      <p>
+        <a href="mailto:vincentcarrancho@gmail.com"
+          >vincentcarrancho@gmail.com</a
+        >
+      </p>
+      <p>
+        <a href="">LinkedIn</a>
+      </p>
+      <p>
+        <a href="">Github</a>
+      </p>
     </div>
   </body>
 </html>

@@ -1,4 +1,5 @@
-.container-skills {
+.container-skills-page {
+  align-self: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -11,38 +12,76 @@
 }
 /* TODO: add button styling */
 .python-container {
+  text-align: center;
+  justify-self: center;
   grid-area: python-container;
 }
 
 .java-container {
+  text-align: center;
+  justify-self: center;
   grid-area: java-container;
 }
 
 .Dart-container {
+  text-align: center;
+  justify-self: center;
   grid-area: Dart-container;
 }
 
 .Flutter-container {
+  text-align: center;
+  justify-self: center;
   grid-area: Flutter-container;
 }
 
 .Cpp-container {
+  text-align: center;
+  justify-self: center;
   grid-area: Cpp-container;
 }
 
 .arduinoc-container {
+  text-align: center;
+  justify-self: center;
   grid-area: arduinoc-container;
 }
 
 .html-container {
+  text-align: center;
+  justify-self: center;
   grid-area: html-container;
 }
 
 .CSS-container {
+  text-align: center;
+  justify-self: center;
   grid-area: CSS-container;
 }
 
 .Figma-container {
+  text-align: center;
+  justify-self: center;
   grid-area: Figma-container;
 }
 /* TODO: make style the buttons */
+
+.skills-button {
+  font-size: 36px;
+  margin: 0.25em;
+  font-weight: bold;
+  color: #4a4a4a;
+  width: 7em;
+  height: 4em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-style: solid;
+  border-radius: 1em;
+  border-color: #4a4a4a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -3,8 +3,23 @@
 body {
   background-color: #ffddca;
   font-family: "Be Vietnam", sans-serif;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 0%;
+}
+
+#title-div {
+  position: relative;
+}
+
+h1 {
+  font-size: 144px;
+  font-weight: bolder;
+  color: #4a4a4a;
+  padding: 0%;
+  margin: 0%;
 }
 
 h3,
@@ -13,12 +28,89 @@ p {
   color: #4a4a4a;
 }
 h3 {
+  font-size: 3.5vh;
   font-weight: 300;
+  padding: 0%;
+  margin: 0%;
 }
 
 h2 {
+  font-size: 36px;
   font-weight: bold;
 }
 p {
   font-weight: 300;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-size: 36px;
+}
+
+#title-pagel1,
+#title-pagel2 {
+  font-size: 20vh;
+}
+#title-pagel1 {
+  color: #4a4a4a;
+}
+#title-pagel2 {
+  color: white;
+}
+
+#title-textl1 {
+  line-height: 100%;
+  text-align: right;
+  color: white;
+  font-size: 112px;
+}
+#title-textl2 {
+  line-height: 100%;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #4a4a4a;
+  position: relative;
+  top: 50px;
+}
+
+ul {
+  margin: 0%;
+}
+#school-header {
+  margin-bottom: 0%;
+}
+#edu-list {
+  margin: 0%;
+}
+
+/* Below is the CSS rules for the page dims */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.about-page {
+  height: 100vh;
+}
+
+.education-skills-page {
+}
+
+.experience-proj-page {
+}
+
+.contact-page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
