@@ -1,3 +1,7 @@
+<!-- 
+    TODO: add the header and the footer
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,47 +10,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vincent Carrancho</title>
   </head>
-  <body>
-    <!-- 
-          TODO: FIX THE SECTION TITLES; IF NOT THEN MAKE AN SVG
-       -->
-    <link rel="stylesheet" href="global.css" />
+  <body class="body">
+    <link rel="stylesheet" href="./src/css/global.css" />
     <div class="home-page">
-      <!--
-            divider for the title page.
-            TODO: Format and break the h1 tags.
-        -->
       <div id="title-div">
         <h1 id="title-pagel1">I'M VINCENT</h1>
         <h1 id="title-pagel2">CARRANCHO</h1>
       </div>
       <div>
-        <h3>
-          I am a student studying Computer Science at Florida International<br />
+        <h3 style="margin-top: 5vh">
+          I am a student studying Computer Science at Florida International
           University. Currently looking for opportunities to learn and create!
         </h3>
       </div>
     </div>
 
-    <div class="about-page">
-      <!-- About me page -->
-      <div>
-        <!-- TODO: Add image -->
+    <div style="margin-top: 15vh; margin-bottom: 15vh">
+      <div class="img-div">
+        <link rel="stylesheet" href="./src/css/img.css" />
+        <img src="./src/img/IMG_0144.jpg" alt="" class="img" />
       </div>
-      <div>
-        <div id="title-div">
-          <h1 id="title-textl1">About Me</h1>
+      <div class="about-page">
+        <!-- About me page -->
+
+        <div>
+          <div id="title-div">
+            <h1 id="title-textl2">About Me</h1>
+          </div>
+          <p style="margin-top: 10vh">
+            Before I swtiched to Computer Science, I was a Mechanical
+            Engineering Major. But once I needed to start programming Arduinos
+            for various projects, I quickly fell in love with programming. So
+            much that I switched my major to Computer Science.
+          </p>
         </div>
-        <p>
-          Before I swtiched to Computer Science, I was a Mechanical Engineering
-          Major. But once I needed to start programming Arduinos for various
-          projects, I quickly fell in love with programming. So much that I
-          switched my major to Computer Science.
-        </p>
       </div>
     </div>
-
-    <div class="education-skills-page">
+    <hr />
+    <div
+      class="education-skills-page"
+      style="margin-top: 15vh; margin-bottom: 15vh"
+    >
       <!-- divider for the Education and skills page -->
       <div id="title-div">
         <h1 id="title-textl2">Education</h1>
@@ -54,28 +58,31 @@
       </div>
 
       <!-- Education Dividers/Text below -->
-      <div>
+      <div style="margin-top: 10vh">
         <h2 id="school-header">
           Florida International University; 2020 to 2024
         </h2>
+
         <ul>
           <li><p id="edu-list">Bachelor of Science in Computer Science</p></li>
           <li><p id="edu-list">3.89 Cumulative Grade Point Average</p></li>
         </ul>
       </div>
       <div>
-        <h2 id="school-header">
+        <h2 id="school-header" style="margin-top: 5vh">
           Robert Morgan Educational Center; 2016 to 2020
         </h2>
+
         <ul>
           <li><p id="edu-list">High School Diploma</p></li>
           <li><p id="edu-list">Engineering Academy</p></li>
         </ul>
       </div>
-      <div class="container-skills-page">
+
+      <div class="container-skills-page" style="margin-top: 5vh">
         <!-- container for the skills list -->
         <!-- TODO: make sub div that is the global button style -->
-        <link rel="stylesheet" href="buttonStyles.css" />
+        <link rel="stylesheet" href="./src/css/buttonStyles.css" />
         <div class="python-container">
           <div class="skills-button">Python</div>
         </div>
@@ -105,14 +112,17 @@
         </div>
       </div>
     </div>
-
-    <div class="experience-proj-page">
+    <hr />
+    <div
+      class="experience-proj-page"
+      style="margin-top: 15vh; margin-bottom: 15vh"
+    >
       <div id="title-div">
         <h1 id="title-textl2">Experiences</h1>
         <h1 id="title-textl1">And Projects</h1>
       </div>
 
-      <div>
+      <div style="margin-top: 10vh">
         <!-- Project 1 Div -->
         <h2>FIU COVID-19 App Prototype – Spring 2021</h2>
         <p>
@@ -133,7 +143,7 @@
         </p>
       </div>
       <br />
-      <div>
+      <div style="margin-top: 5vh">
         <!-- Project 2 Div -->
         <h2>The Social Distancing Graduation Cap – Spring 2020</h2>
         <p>
@@ -153,22 +163,23 @@
         </p>
       </div>
     </div>
+    <hr />
     <div class="contact-page">
       <div id="title-div">
         <h1 id="title-textl2">Say Hello</h1>
         <h1 id="title-textl1">To Me</h1>
       </div>
-      <div style="height: 10vh"></div>
+      <div style="height: 5vh"></div>
       <p>
         <a href="mailto:vincentcarrancho@gmail.com"
           >vincentcarrancho@gmail.com</a
         >
       </p>
       <p>
-        <a href="">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/vincentcarrancho/">LinkedIn</a>
       </p>
       <p>
-        <a href="">Github</a>
+        <a href="https://github.com/VincentCarrancho">Github</a>
       </p>
     </div>
   </body>
