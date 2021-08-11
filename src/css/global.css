@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300;400;700;800&display=swap");
+/* 
+! USE ONLY RELATIVE UNITS OF MEASURE!
+TODO: Make the padding and margins use relative units of measure.
+*/
+
+html {
+  scroll-behavior: smooth;
+}
 
 .body {
   font-family: "Be Vietnam", sans-serif;
@@ -6,119 +13,120 @@
   padding: 0%;
   background-color: #ffddca;
 }
+
 hr {
-  border-top: 10px dotted rgb(255, 255, 255);
+  border-top: 1vh dotted rgb(255, 255, 255);
   border-bottom: none;
   opacity: 50%;
-}
-
-h1 {
-  font-size: 188px;
-  font-weight: bolder;
-  color: #4a4a4a;
-  padding: 0%;
   margin: 0%;
 }
 
-h3,
-h2,
-p {
-  color: #4a4a4a;
-}
-h3 {
-  font-size: 36px;
-  font-weight: 300;
+h1 {
+  text-align: center;
+  font-weight: bolder;
   padding: 0%;
   margin: 0%;
 }
 
 h2 {
-  font-size: 54px;
-  font-weight: bold;
-  line-height: 1em;
-  margin-top: 0%;
-  margin-bottom: 0.5em;
-}
-p {
-  font-weight: 300;
-  font-size: 36px;
-  margin: 0%;
+  font-size: 2.25vw;
+  font-weight: 600;
 }
 
+p {
+  font-size: 1.5vw;
+  font-weight: 300;
+}
 a {
   text-decoration: none;
   color: #4a4a4a;
-  font-size: 36px;
 }
 
-#title-pagel1,
-#title-pagel2 {
-  font-size: 188px;
-  line-height: 0.9em;
-}
-#title-pagel1 {
+h1,
+h2,
+h3,
+p {
   color: #4a4a4a;
 }
-#title-pagel2 {
-  color: white;
-}
 
+#title-textl2,
 #title-textl1 {
-  line-height: 100%;
-  text-align: center;
-  color: white;
-  font-size: 112px;
-}
-#title-textl2 {
-  line-height: 100%;
-  text-align: center;
-  color: transparent;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #4a4a4a;
+  font-size: 6vw;
 }
 
-ul {
-  margin: 0%;
-}
-#school-header {
-  margin-bottom: 0%;
-}
-#edu-list {
-  margin: 0%;
-}
-
-/* Below is the CSS rules for the page dims */
-
-.home-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  justify-content: center;
-}
-
-.about-page {
-}
-
-.education-skills-page {
-}
-
-.experience-proj-page {
-}
-
-.contact-page {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 .home-page,
 .about-page,
 .education-skills-page,
 .experience-proj-page,
 .contact-page {
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+/* * For the nav bar. */
+
+nav {
+  position: fixed;
+  top: 0%;
+  width: 100vw;
+  display: flex;
+  background-color: #ffddca;
+  flex-direction: row;
+  justify-content: space-evenly;
+  z-index: 500;
+  box-shadow: 0px 10px 20px #a1a1a15d;
+}
+
+/* !Starting the css by pages */
+
+/* *For the home page */
+
+.home-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#title-pagel1,
+#title-pagel2 {
+  font-size: 8vw;
+}
+
+/* TODO: Make the the width of the h3 text box into the width of the title */
+h3 {
+  font-size: 1.75vw;
+  font-weight: 300;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  text-align: center;
+}
+
+/* *For the about page */
+
+.about-page {
+  margin-top: 7.5vh;
+  margin-bottom: 15vh;
+}
+
+/* *For the education and skills page */
+
+/* *For the projects page */
+
+/* *For the contact me page */
+
+.contact-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link-divs {
+  text-align: center;
+}
+
+a:hover {
+  transition: 1s;
+  text-decoration: underline;
 }

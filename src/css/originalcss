@@ -1,0 +1,743 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300;400;700;800&display=swap");
+
+/* TODO: Add mobile media queries. */
+.body {
+  font-family: "Be Vietnam", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  background-color: #ffddca;
+}
+@media screen and (min-width: 1200px) {
+  /* * Below are defaults for a computer screen */
+
+  hr {
+    border-top: 10px dotted rgb(255, 255, 255);
+    border-bottom: none;
+    opacity: 50%;
+  }
+
+  h1 {
+    font-size: 188px;
+    font-weight: bolder;
+    color: #4a4a4a;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  h3,
+  h2,
+  p {
+    color: #4a4a4a;
+  }
+  h3 {
+    font-size: 36px;
+    font-weight: 300;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  h2 {
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 1em;
+    margin-top: 0%;
+    margin-bottom: 0.5em;
+  }
+  p {
+    font-weight: 300;
+    font-size: 36px;
+    margin: 0%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 36px;
+  }
+
+  #title-pagel1,
+  #title-pagel2 {
+    font-size: 188px;
+    line-height: 0.9em;
+  }
+  #title-pagel1 {
+    color: #4a4a4a;
+  }
+  #title-pagel2 {
+    color: white;
+  }
+
+  #title-textl1 {
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 144px;
+  }
+  #title-textl2 {
+    font-size: 144px;
+    line-height: 100%;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #4a4a4a;
+  }
+
+  ul {
+    margin: 0%;
+  }
+  #school-header {
+    margin-bottom: 0%;
+  }
+  #edu-list {
+    margin: 0%;
+  }
+
+  /* Below is the CSS rules for the page dims */
+
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .about-page {
+  }
+
+  .education-skills-page {
+  }
+
+  .experience-proj-page {
+  }
+
+  .contact-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .home-page,
+  .about-page,
+  .education-skills-page,
+  .experience-proj-page,
+  .contact-page {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  /* * Below are defaults for a computer screen */
+
+  hr {
+    border-top: 10px dotted rgb(255, 255, 255);
+    border-bottom: none;
+    opacity: 50%;
+  }
+
+  h1 {
+    font-size: 144px;
+    font-weight: bolder;
+    color: #4a4a4a;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  h3,
+  h2,
+  p {
+    color: #4a4a4a;
+  }
+  h3 {
+    font-size: 28px;
+    font-weight: 300;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1em;
+    margin-top: 0%;
+    margin-bottom: 0.5em;
+  }
+  p {
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 36px;
+  }
+
+  #title-pagel1,
+  #title-pagel2 {
+    font-size: 144px;
+    line-height: 0.9em;
+  }
+  #title-pagel1 {
+    color: #4a4a4a;
+  }
+  #title-pagel2 {
+    color: white;
+  }
+
+  #title-textl1 {
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 108px;
+  }
+  #title-textl2 {
+    font-size: 108px;
+    line-height: 100%;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4a4a4a;
+  }
+
+  ul {
+    margin: 0%;
+  }
+  #school-header {
+    margin-bottom: 0%;
+  }
+  #edu-list {
+    margin: 0%;
+  }
+
+  /* Below is the CSS rules for the page dims */
+
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .about-page {
+  }
+
+  .education-skills-page {
+  }
+
+  .experience-proj-page {
+  }
+
+  .contact-page {
+    padding-top: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20vh;
+  }
+  .home-page,
+  .about-page,
+  .education-skills-page,
+  .experience-proj-page,
+  .contact-page {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  /* * Below are defaults for a computer screen */
+
+  hr {
+    border-top: 10px dotted rgb(255, 255, 255);
+    border-bottom: none;
+    opacity: 50%;
+  }
+
+  h1 {
+    font-size: 84px;
+    font-weight: bolder;
+    color: #4a4a4a;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  h3,
+  h2,
+  p {
+    color: #4a4a4a;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1em;
+    margin-top: 0%;
+    margin-bottom: 0.5em;
+  }
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 18px;
+  }
+
+  #title-pagel1,
+  #title-pagel2 {
+    font-size: 84px;
+    line-height: 0.9em;
+  }
+  #title-pagel1 {
+    color: #4a4a4a;
+  }
+  #title-pagel2 {
+    color: white;
+  }
+
+  #title-textl1 {
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 72px;
+  }
+  #title-textl2 {
+    line-height: 100%;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #4a4a4a;
+  }
+
+  ul {
+    margin: 0%;
+  }
+  #school-header {
+    margin-bottom: 0%;
+  }
+  #edu-list {
+    margin: 0%;
+  }
+
+  /* Below is the CSS rules for the page dims */
+
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .about-page {
+  }
+
+  .education-skills-page {
+  }
+
+  .experience-proj-page {
+  }
+
+  .contact-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .home-page,
+  .about-page,
+  .education-skills-page,
+  .experience-proj-page,
+  .contact-page {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  /* * Below are defaults for a computer screen */
+
+  hr {
+    border-top: 10px dotted rgb(255, 255, 255);
+    border-bottom: none;
+    opacity: 50%;
+  }
+
+  h1 {
+    font-size: 72px;
+    font-weight: bolder;
+    color: #4a4a4a;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  h3,
+  h2,
+  p {
+    color: #4a4a4a;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1em;
+    margin-top: 0%;
+    margin-bottom: 0.5em;
+  }
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 18px;
+  }
+
+  #title-pagel1,
+  #title-pagel2 {
+    font-size: 72px;
+    line-height: 0.9em;
+  }
+  #title-pagel1 {
+    color: #4a4a4a;
+  }
+  #title-pagel2 {
+    color: white;
+  }
+
+  #title-textl1 {
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 64px;
+  }
+  #title-textl2 {
+    line-height: 100%;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #4a4a4a;
+  }
+
+  ul {
+    margin: 0%;
+  }
+  #school-header {
+    margin-bottom: 0%;
+  }
+  #edu-list {
+    margin: 0%;
+  }
+
+  /* Below is the CSS rules for the page dims */
+
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .about-page {
+  }
+
+  .education-skills-page {
+  }
+
+  .experience-proj-page {
+  }
+
+  .contact-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .home-page,
+  .about-page,
+  .education-skills-page,
+  .experience-proj-page,
+  .contact-page {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  /* * Below are defaults for a computer screen */
+
+  hr {
+    border-top: 10px dotted rgb(255, 255, 255);
+    border-bottom: none;
+    opacity: 50%;
+  }
+
+  h1 {
+    font-size: 64px;
+    font-weight: bolder;
+    color: #4a4a4a;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  h3,
+  h2,
+  p {
+    color: #4a4a4a;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1em;
+    margin-top: 0%;
+    margin-bottom: 0.5em;
+  }
+  p {
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 18px;
+  }
+
+  #title-pagel1,
+  #title-pagel2 {
+    font-size: 64px;
+    line-height: 0.9em;
+  }
+  #title-pagel1 {
+    color: #4a4a4a;
+  }
+  #title-pagel2 {
+    color: white;
+  }
+
+  #title-textl1 {
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 54px;
+  }
+  #title-textl2 {
+    line-height: 100%;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #4a4a4a;
+  }
+
+  ul {
+    margin: 0%;
+  }
+  #school-header {
+    margin-bottom: 0%;
+  }
+  #edu-list {
+    margin: 0%;
+  }
+
+  /* Below is the CSS rules for the page dims */
+
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .about-page {
+  }
+
+  .education-skills-page {
+  }
+
+  .experience-proj-page {
+  }
+
+  .contact-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .home-page,
+  .about-page,
+  .education-skills-page,
+  .experience-proj-page,
+  .contact-page {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  /* * Below are defaults for a computer screen */
+
+  hr {
+    border-top: 10px dotted rgb(255, 255, 255);
+    border-bottom: none;
+    opacity: 50%;
+  }
+
+  h1 {
+    font-size: 64px;
+    font-weight: bolder;
+    color: #4a4a4a;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  h3,
+  h2,
+  p {
+    color: #4a4a4a;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1em;
+    margin-top: 0%;
+    margin-bottom: 0.5em;
+  }
+  p {
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 18px;
+  }
+
+  #title-pagel1,
+  #title-pagel2 {
+    font-size: 64px;
+    line-height: 0.9em;
+  }
+  #title-pagel1 {
+    color: #4a4a4a;
+  }
+  #title-pagel2 {
+    color: white;
+  }
+
+  #title-textl1 {
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+  }
+  #title-textl2 {
+    line-height: 100%;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #4a4a4a;
+  }
+
+  ul {
+    margin: 0%;
+  }
+  #school-header {
+    margin-bottom: 0%;
+  }
+  #edu-list {
+    margin: 0%;
+  }
+
+  /* Below is the CSS rules for the page dims */
+
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .about-page {
+  }
+
+  .education-skills-page {
+  }
+
+  .experience-proj-page {
+  }
+
+  .contact-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .home-page,
+  .about-page,
+  .education-skills-page,
+  .experience-proj-page,
+  .contact-page {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+}
