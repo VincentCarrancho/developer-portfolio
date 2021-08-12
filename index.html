@@ -13,186 +13,203 @@
   <body class="body">
     <link rel="stylesheet" href="./src/css/global.css" />
     <nav>
-      <a href="home-page"><p>Home</p></a>
-      <a href=""><p>About</p></a>
-      <a href=""><p>Projects and Experience</p></a>
-      <a href=""><p>Contact Me</p></a>
+      <a href="#homepage-wrapper"><p>Home</p></a>
+      <a href="#aboutpage-wrapper"><p>About</p></a>
+      <a href="#skillspage-wrapper"><p>Education and Skills</p></a>
+      <a href="#experiencepage-wrapper"><p>Projects and Experience</p></a>
+      <a href="#contact-wrapper"><p>Contact Me</p></a>
     </nav>
-    <div class="home-page">
-      <div id="title-div">
-        <h1 id="title-pagel1">I'M VINCENT</h1>
-        <h1 id="title-pagel2">CARRANCHO</h1>
+    <div id="homepage-wrapper">
+      <div class="home-page">
+        <div id="title-div">
+          <h1 id="title-pagel1">I'M VINCENT</h1>
+          <h1 id="title-pagel2">CARRANCHO</h1>
+        </div>
+        <div>
+          <h3>
+            I am a student studying Computer Science at Florida International
+            University. Currently looking for opportunities to learn and create!
+          </h3>
+        </div>
       </div>
-      <div>
-        <h3>
-          I am a student studying Computer Science at Florida International
-          University. Currently looking for opportunities to learn and create!
-        </h3>
+    </div>
+
+    <hr />
+    <div id="aboutpage-wrapper">
+      <div style="margin-bottom: 15vh">
+        <div class="img-div">
+          <link rel="stylesheet" href="./src/css/img.css" />
+          <img src="./src/img/IMG_0144.jpg" alt="" class="img" />
+        </div>
+
+        <div class="about-page">
+          <!-- About me page -->
+
+          <div>
+            <div id="title-div">
+              <h1 id="title-textl2">About Me</h1>
+            </div>
+            <p style="margin-top: 5vh">
+              Before I swtiched to Computer Science, I was a Mechanical
+              Engineering Major. But once I needed to start programming Arduinos
+              for various projects, I quickly fell in love with programming. So
+              much that I switched my major to Computer Science.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
     <hr />
 
-    <div style="margin-bottom: 15vh">
-      <div class="img-div">
-        <link rel="stylesheet" href="./src/css/img.css" />
-        <img src="./src/img/IMG_0144.jpg" alt="" class="img" />
-      </div>
+    <div id="skillspage-wrapper">
+      <div
+        class="education-skills-page"
+        style="margin-top: 5vh; margin-bottom: 5vh"
+      >
+        <!-- divider for the Education and skills page -->
+        <div id="title-div">
+          <h1 id="title-textl2">Education</h1>
+          <h1 id="title-textl1">And Skills</h1>
+        </div>
 
-      <div class="about-page">
-        <!-- About me page -->
+        <!-- Education Dividers/Text below -->
+        <div style="margin-top: 5vh">
+          <h2 id="school-header">
+            Florida International University; 2020 to 2024
+          </h2>
 
+          <ul>
+            <li>
+              <p id="edu-list">Bachelor of Science in Computer Science</p>
+            </li>
+            <li><p id="edu-list">3.89 Cumulative Grade Point Average</p></li>
+          </ul>
+        </div>
         <div>
-          <div id="title-div">
-            <h1 id="title-textl2">About Me</h1>
+          <h2 id="school-header" style="margin-top: 5vh">
+            Robert Morgan Educational Center; 2016 to 2020
+          </h2>
+
+          <ul>
+            <li><p id="edu-list">High School Diploma</p></li>
+            <li><p id="edu-list">Engineering Academy</p></li>
+          </ul>
+        </div>
+
+        <div id="skills-wrapper">
+          <div class="container-skills-page" style="margin-top: 5vh">
+            <!-- container for the skills list -->
+            <!-- TODO: make sub div that is the global button style -->
+            <link rel="stylesheet" href="./src/css/buttonStyles.css" />
+            <div class="python-container">
+              <div class="skills-button"><p>Python</p></div>
+            </div>
+            <div class="java-container">
+              <div class="skills-button"><p>Java</p></div>
+            </div>
+            <div class="Dart-container">
+              <div class="skills-button"><p>Dart</p></div>
+            </div>
+            <div class="Flutter-container">
+              <div class="skills-button"><p>Flutter</p></div>
+            </div>
+            <div class="Cpp-container">
+              <div class="skills-button"><p>C++</p></div>
+            </div>
+            <div class="arduinoc-container">
+              <div class="skills-button"><p>Arduino C</p></div>
+            </div>
+            <div class="html-container">
+              <div class="skills-button"><p>HTML</p></div>
+            </div>
+            <div class="CSS-container">
+              <div class="skills-button"><p>CSS</p></div>
+            </div>
+            <div class="Figma-container">
+              <div class="skills-button"><p>Figma</p></div>
+            </div>
           </div>
-          <p style="margin-top: 10vh">
-            Before I swtiched to Computer Science, I was a Mechanical
-            Engineering Major. But once I needed to start programming Arduinos
-            for various projects, I quickly fell in love with programming. So
-            much that I switched my major to Computer Science.
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div id="experiencepage-wrapper">
+      <div
+        class="experience-proj-page"
+        style="margin-top: 15vh; margin-bottom: 15vh"
+      >
+        <div id="title-div">
+          <h1 id="title-textl2">Experiences</h1>
+          <h1 id="title-textl1">And Projects</h1>
+        </div>
+        <div style="margin-top: 10vh">
+          <!-- Project 1 Div -->
+          <h2>FIU COVID-19 App Prototype – Spring 2021</h2>
+          <p>
+            During the 2021 spring semester, I was assigned to lead a team of 12
+            people to develop a COVID-19 app using Flutter throughout a 9 week
+            development period. Despite having almost no experience in Flutter
+            (or any type of mobile development experience), we managed to create
+            a working prototype.
+            <br /><br />
+            The app we created was an app that served two purposes. The first
+            one being to help students complete a safety check before they came
+            on campus. The second purpose was to let people know if they were
+            exposed to COVID-19 while on school grounds–unfortunately, we were
+            not able to implement the bluetooth protocols during the development
+            period. We used Firebase for our backend, Flutter as the framework
+            to develop our app for both platforms of phones, and Figma to design
+            the user interface.
+          </p>
+        </div>
+        <br />
+        <div style="margin-top: 5vh">
+          <!-- Project 2 Div -->
+          <h2>The Social Distancing Graduation Cap – Spring 2020</h2>
+          <p>
+            Due to COVID-19, everyone’ morale was low. I saw an opportunity to
+            make other laugh and enjoy themselves while riding out the pandemic.
+            I wanted to make something so goofy that related to the situation we
+            were in. Therefore, I decided to get creative with my graduation
+            cap. What I did was that I attached an ultrasonic sensor, and
+            Arduino, and a beeper on my graduation cap.
+            <br /><br />
+            What the graduation cap did was that the ultrasonic sensor feeds
+            distance readings into the Arduino. The Arduino processes the data
+            from the sensor and performs calculations that controls the timing
+            of the beeper. The end result was a graduation cap that starts
+            beeping when it detects something is 6ft or closer–then beeps faster
+            if the object does get closer.
           </p>
         </div>
       </div>
     </div>
+
     <hr />
-    <div
-      class="education-skills-page"
-      style="margin-top: 15vh; margin-bottom: 15vh"
-    >
-      <!-- divider for the Education and skills page -->
-      <div id="title-div">
-        <h1 id="title-textl2">Education</h1>
-        <h1 id="title-textl1">And Skils</h1>
-      </div>
 
-      <!-- Education Dividers/Text below -->
-      <div style="margin-top: 10vh">
-        <h2 id="school-header">
-          Florida International University; 2020 to 2024
-        </h2>
-
-        <ul>
-          <li><p id="edu-list">Bachelor of Science in Computer Science</p></li>
-          <li><p id="edu-list">3.89 Cumulative Grade Point Average</p></li>
-        </ul>
-      </div>
-      <div>
-        <h2 id="school-header" style="margin-top: 5vh">
-          Robert Morgan Educational Center; 2016 to 2020
-        </h2>
-
-        <ul>
-          <li><p id="edu-list">High School Diploma</p></li>
-          <li><p id="edu-list">Engineering Academy</p></li>
-        </ul>
-      </div>
-
-      <div id="skills-wrapper">
-        <div class="container-skills-page" style="margin-top: 5vh">
-          <!-- container for the skills list -->
-          <!-- TODO: make sub div that is the global button style -->
-          <link rel="stylesheet" href="./src/css/buttonStyles.css" />
-          <div class="python-container">
-            <div class="skills-button"><p>Python</p></div>
-          </div>
-          <div class="java-container">
-            <div class="skills-button"><p>Java</p></div>
-          </div>
-          <div class="Dart-container">
-            <div class="skills-button"><p>Dart</p></div>
-          </div>
-          <div class="Flutter-container">
-            <div class="skills-button"><p>Flutter</p></div>
-          </div>
-          <div class="Cpp-container">
-            <div class="skills-button"><p>C++</p></div>
-          </div>
-          <div class="arduinoc-container">
-            <div class="skills-button"><p>Arduino C</p></div>
-          </div>
-          <div class="html-container">
-            <div class="skills-button"><p>HTML</p></div>
-          </div>
-          <div class="CSS-container">
-            <div class="skills-button"><p>CSS</p></div>
-          </div>
-          <div class="Figma-container">
-            <div class="skills-button"><p>Figma</p></div>
-          </div>
+    <div id="contact-wrapper">
+      <div class="contact-page">
+        <div id="title-div">
+          <h1 id="title-textl2">Say Hello</h1>
+          <h1 id="title-textl1">To Me</h1>
         </div>
-      </div>
-    </div>
-    <hr />
-    <div
-      class="experience-proj-page"
-      style="margin-top: 15vh; margin-bottom: 15vh"
-    >
-      <div id="title-div">
-        <h1 id="title-textl2">Experiences</h1>
-        <h1 id="title-textl1">And Projects</h1>
-      </div>
-
-      <div style="margin-top: 10vh">
-        <!-- Project 1 Div -->
-        <h2>FIU COVID-19 App Prototype – Spring 2021</h2>
-        <p>
-          During the 2021 spring semester, I was assigned to lead a team of 12
-          people to develop a COVID-19 app using Flutter throughout a 9 week
-          development period. Despite having almost no experience in Flutter (or
-          any type of mobile development experience), we managed to create a
-          working prototype.
-          <br /><br />
-          The app we created was an app that served two purposes. The first one
-          being to help students complete a safety check before they came on
-          campus. The second purpose was to let people know if they were exposed
-          to COVID-19 while on school grounds–unfortunately, we were not able to
-          implement the bluetooth protocols during the development period. We
-          used Firebase for our backend, Flutter as the framework to develop our
-          app for both platforms of phones, and Figma to design the user
-          interface.
-        </p>
-      </div>
-      <br />
-      <div style="margin-top: 5vh">
-        <!-- Project 2 Div -->
-        <h2>The Social Distancing Graduation Cap – Spring 2020</h2>
-        <p>
-          Due to COVID-19, everyone’ morale was low. I saw an opportunity to
-          make other laugh and enjoy themselves while riding out the pandemic. I
-          wanted to make something so goofy that related to the situation we
-          were in. Therefore, I decided to get creative with my graduation cap.
-          What I did was that I attached an ultrasonic sensor, and Arduino, and
-          a beeper on my graduation cap.
-          <br /><br />
-          What the graduation cap did was that the ultrasonic sensor feeds
-          distance readings into the Arduino. The Arduino processes the data
-          from the sensor and performs calculations that controls the timing of
-          the beeper. The end result was a graduation cap that starts beeping
-          when it detects something is 6ft or closer–then beeps faster if the
-          object does get closer.
-        </p>
-      </div>
-    </div>
-    <hr />
-    <div class="contact-page">
-      <div id="title-div">
-        <h1 id="title-textl2">Say Hello</h1>
-        <h1 id="title-textl1">To Me</h1>
-      </div>
-      <div style="height: 5vh"></div>
-      <div class="link-divs">
-        <p>
-          <a href="mailto:vincentcarrancho@gmail.com"
-            >vincentcarrancho@gmail.com</a
-          >
-        </p>
-        <p>
-          <a href="https://www.linkedin.com/in/vincentcarrancho/">LinkedIn</a>
-        </p>
-        <p>
-          <a href="https://github.com/VincentCarrancho">Github</a>
-        </p>
+        <div style="height: 1vh"></div>
+        <div class="link-divs">
+          <p>
+            <a href="mailto:vincentcarrancho@gmail.com"
+              >vincentcarrancho@gmail.com</a
+            >
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/vincentcarrancho/">LinkedIn</a>
+          </p>
+          <p>
+            <a href="https://github.com/VincentCarrancho">Github</a>
+          </p>
+        </div>
       </div>
     </div>
   </body>

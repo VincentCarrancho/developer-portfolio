@@ -49,9 +49,24 @@ p {
   color: #4a4a4a;
 }
 
-#title-textl2,
 #title-textl1 {
+  position: relative;
   font-size: 6vw;
+  color: white;
+}
+
+#title-textl2 {
+  z-index: 2;
+  position: relative;
+  z-index: -500;
+  font-size: 7.5vw;
+  color: transparent;
+  -webkit-text-stroke-width: 0.1vw;
+  -webkit-text-stroke-color: #4a4a4a;
+}
+
+#title-div {
+  position: relative;
 }
 
 .home-page,
@@ -59,8 +74,8 @@ p {
 .education-skills-page,
 .experience-proj-page,
 .contact-page {
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
 /* * For the nav bar. */
