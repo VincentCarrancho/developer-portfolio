@@ -3,145 +3,662 @@
 TODO: Make the padding and margins use relative units of measure.
 */
 
-html {
-  scroll-behavior: smooth;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .body {
+    font-family: "Be Vietnam", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffddca;
+  }
+
+  hr {
+    border-top: 1vh dotted rgb(255, 255, 255);
+    border-bottom: none;
+    opacity: 50%;
+    margin: 0%;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  h2 {
+    font-size: 5vw;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 4vw;
+    font-weight: 300;
+  }
+  a {
+    text-decoration: none;
+    color: #4a4a4a;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    color: #4a4a4a;
+  }
+
+  #title-textl1 {
+    position: relative;
+    font-size: 12vw;
+    color: white;
+  }
+
+  #title-textl2 {
+    z-index: 2;
+    position: relative;
+    z-index: -500;
+    font-size: 15vw;
+    color: transparent;
+    -webkit-text-stroke-width: 0.4vw;
+    -webkit-text-stroke-color: #4a4a4a;
+  }
+
+  #title-div {
+    position: relative;
+  }
+
+  .home-page,
+  .about-page,
+  .education-skills-page,
+  .experience-proj-page,
+  .contact-page {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  /* !Starting the css by pages */
+
+  /* *For the home page */
+
+  .home-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #title-pagel1,
+  #title-pagel2 {
+    font-size: 13vw;
+  }
+
+  /* TODO: Make the the width of the h3 text box into the width of the title */
+  h3 {
+    font-size: 4vw;
+    font-weight: 300;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    text-align: center;
+  }
+
+  /* *For the about page */
+
+  .about-page {
+    margin-top: 7.5vh;
+    margin-bottom: 15vh;
+  }
+
+  /* *For the education and skills page */
+
+  /* *For the projects page */
+
+  /* *For the contact me page */
+
+  .contact-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .link-divs {
+    text-align: center;
+  }
+
+  a:hover {
+    transition: 1s;
+    text-decoration: underline;
+  }
 }
 
-.body {
-  font-family: "Be Vietnam", sans-serif;
-  margin: 0%;
-  padding: 0%;
-  background-color: #ffddca;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .body {
+    font-family: "Be Vietnam", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffddca;
+  }
+
+  hr {
+    border-top: 1vh dotted rgb(255, 255, 255);
+    border-bottom: none;
+    opacity: 50%;
+    margin: 0%;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  h2 {
+    font-size: 2.25vw;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 1.5vw;
+    font-weight: 300;
+  }
+  a {
+    text-decoration: none;
+    color: #4a4a4a;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    color: #4a4a4a;
+  }
+
+  #title-textl1 {
+    position: relative;
+    font-size: 6vw;
+    color: white;
+  }
+
+  #title-textl2 {
+    z-index: 2;
+    position: relative;
+    z-index: -500;
+    font-size: 7.5vw;
+    color: transparent;
+    -webkit-text-stroke-width: 0.1vw;
+    -webkit-text-stroke-color: #4a4a4a;
+  }
+
+  #title-div {
+    position: relative;
+  }
+
+  .home-page,
+  .about-page,
+  .education-skills-page,
+  .experience-proj-page,
+  .contact-page {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+
+  /* !Starting the css by pages */
+
+  /* *For the home page */
+
+  .home-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #title-pagel1,
+  #title-pagel2 {
+    font-size: 8vw;
+  }
+
+  /* TODO: Make the the width of the h3 text box into the width of the title */
+  h3 {
+    font-size: 1.75vw;
+    font-weight: 300;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    text-align: center;
+  }
+
+  /* *For the about page */
+
+  .about-page {
+    margin-top: 7.5vh;
+    margin-bottom: 15vh;
+  }
+
+  /* *For the education and skills page */
+
+  /* *For the projects page */
+
+  /* *For the contact me page */
+
+  .contact-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .link-divs {
+    text-align: center;
+  }
+
+  a:hover {
+    transition: 1s;
+    text-decoration: underline;
+  }
 }
 
-hr {
-  border-top: 1vh dotted rgb(255, 255, 255);
-  border-bottom: none;
-  opacity: 50%;
-  margin: 0%;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .body {
+    font-family: "Be Vietnam", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffddca;
+  }
+
+  hr {
+    border-top: 1vh dotted rgb(255, 255, 255);
+    border-bottom: none;
+    opacity: 50%;
+    margin: 0%;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  h2 {
+    font-size: 2.25vw;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 1.5vw;
+    font-weight: 300;
+  }
+  a {
+    text-decoration: none;
+    color: #4a4a4a;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    color: #4a4a4a;
+  }
+
+  #title-textl1 {
+    position: relative;
+    font-size: 6vw;
+    color: white;
+  }
+
+  #title-textl2 {
+    z-index: 2;
+    position: relative;
+    z-index: -500;
+    font-size: 7.5vw;
+    color: transparent;
+    -webkit-text-stroke-width: 0.1vw;
+    -webkit-text-stroke-color: #4a4a4a;
+  }
+
+  #title-div {
+    position: relative;
+  }
+
+  .home-page,
+  .about-page,
+  .education-skills-page,
+  .experience-proj-page,
+  .contact-page {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+
+  /* !Starting the css by pages */
+
+  /* *For the home page */
+
+  .home-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #title-pagel1,
+  #title-pagel2 {
+    font-size: 8vw;
+  }
+
+  /* TODO: Make the the width of the h3 text box into the width of the title */
+  h3 {
+    font-size: 1.75vw;
+    font-weight: 300;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    text-align: center;
+  }
+
+  /* *For the about page */
+
+  .about-page {
+    margin-top: 7.5vh;
+    margin-bottom: 15vh;
+  }
+
+  /* *For the education and skills page */
+
+  /* *For the projects page */
+
+  /* *For the contact me page */
+
+  .contact-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .link-divs {
+    text-align: center;
+  }
+
+  a:hover {
+    transition: 1s;
+    text-decoration: underline;
+  }
 }
 
-h1 {
-  text-align: center;
-  font-weight: bolder;
-  padding: 0%;
-  margin: 0%;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .body {
+    font-family: "Be Vietnam", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffddca;
+  }
+
+  hr {
+    border-top: 1vh dotted rgb(255, 255, 255);
+    border-bottom: none;
+    opacity: 50%;
+    margin: 0%;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  h2 {
+    font-size: 2.25vw;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 1.5vw;
+    font-weight: 300;
+  }
+  a {
+    text-decoration: none;
+    color: #4a4a4a;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    color: #4a4a4a;
+  }
+
+  #title-textl1 {
+    position: relative;
+    font-size: 6vw;
+    color: white;
+  }
+
+  #title-textl2 {
+    z-index: 2;
+    position: relative;
+    z-index: -500;
+    font-size: 7.5vw;
+    color: transparent;
+    -webkit-text-stroke-width: 0.1vw;
+    -webkit-text-stroke-color: #4a4a4a;
+  }
+
+  #title-div {
+    position: relative;
+  }
+
+  .home-page,
+  .about-page,
+  .education-skills-page,
+  .experience-proj-page,
+  .contact-page {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+
+  /* !Starting the css by pages */
+
+  /* *For the home page */
+
+  .home-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #title-pagel1,
+  #title-pagel2 {
+    font-size: 8vw;
+  }
+
+  /* TODO: Make the the width of the h3 text box into the width of the title */
+  h3 {
+    font-size: 1.75vw;
+    font-weight: 300;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    text-align: center;
+  }
+
+  /* *For the about page */
+
+  .about-page {
+    margin-top: 7.5vh;
+    margin-bottom: 15vh;
+  }
+
+  /* *For the education and skills page */
+
+  /* *For the projects page */
+
+  /* *For the contact me page */
+
+  .contact-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .link-divs {
+    text-align: center;
+  }
+
+  a:hover {
+    transition: 1s;
+    text-decoration: underline;
+  }
 }
 
-h2 {
-  font-size: 2.25vw;
-  font-weight: 600;
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  html {
+    scroll-behavior: smooth;
+  }
 
-p {
-  font-size: 1.5vw;
-  font-weight: 300;
-}
-a {
-  text-decoration: none;
-  color: #4a4a4a;
-}
+  .body {
+    font-family: "Be Vietnam", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffddca;
+  }
 
-h1,
-h2,
-h3,
-p {
-  color: #4a4a4a;
-}
+  hr {
+    border-top: 1vh dotted rgb(255, 255, 255);
+    border-bottom: none;
+    opacity: 50%;
+    margin: 0%;
+  }
 
-#title-textl1 {
-  position: relative;
-  font-size: 6vw;
-  color: white;
-}
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 0%;
+  }
 
-#title-textl2 {
-  z-index: 2;
-  position: relative;
-  z-index: -500;
-  font-size: 7.5vw;
-  color: transparent;
-  -webkit-text-stroke-width: 0.1vw;
-  -webkit-text-stroke-color: #4a4a4a;
-}
+  h2 {
+    font-size: 2.25vw;
+    font-weight: 600;
+  }
 
-#title-div {
-  position: relative;
-}
+  p {
+    font-size: 1.5vw;
+    font-weight: 300;
+  }
+  a {
+    text-decoration: none;
+    color: #4a4a4a;
+  }
 
-.home-page,
-.about-page,
-.education-skills-page,
-.experience-proj-page,
-.contact-page {
-  padding-left: 20vw;
-  padding-right: 20vw;
-}
+  h1,
+  h2,
+  h3,
+  p {
+    color: #4a4a4a;
+  }
 
-/* * For the nav bar. */
+  #title-textl1 {
+    position: relative;
+    font-size: 6vw;
+    color: white;
+  }
 
-nav {
-  position: fixed;
-  top: 0%;
-  width: 100vw;
-  display: flex;
-  background-color: #ffddca;
-  flex-direction: row;
-  justify-content: space-evenly;
-  z-index: 500;
-  box-shadow: 0px 10px 20px #a1a1a15d;
-}
+  #title-textl2 {
+    z-index: 2;
+    position: relative;
+    z-index: -500;
+    font-size: 7.5vw;
+    color: transparent;
+    -webkit-text-stroke-width: 0.1vw;
+    -webkit-text-stroke-color: #4a4a4a;
+  }
 
-/* !Starting the css by pages */
+  #title-div {
+    position: relative;
+  }
 
-/* *For the home page */
+  .home-page,
+  .about-page,
+  .education-skills-page,
+  .experience-proj-page,
+  .contact-page {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
 
-.home-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+  /* !Starting the css by pages */
 
-#title-pagel1,
-#title-pagel2 {
-  font-size: 8vw;
-}
+  /* *For the home page */
 
-/* TODO: Make the the width of the h3 text box into the width of the title */
-h3 {
-  font-size: 1.75vw;
-  font-weight: 300;
-  margin-left: 8vw;
-  margin-right: 8vw;
-  text-align: center;
-}
+  .home-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-/* *For the about page */
+  #title-pagel1,
+  #title-pagel2 {
+    font-size: 8vw;
+  }
 
-.about-page {
-  margin-top: 7.5vh;
-  margin-bottom: 15vh;
-}
+  /* TODO: Make the the width of the h3 text box into the width of the title */
+  h3 {
+    font-size: 1.75vw;
+    font-weight: 300;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    text-align: center;
+  }
 
-/* *For the education and skills page */
+  /* *For the about page */
 
-/* *For the projects page */
+  .about-page {
+    margin-top: 7.5vh;
+    margin-bottom: 15vh;
+  }
 
-/* *For the contact me page */
+  /* *For the education and skills page */
 
-.contact-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+  /* *For the projects page */
 
-.link-divs {
-  text-align: center;
-}
+  /* *For the contact me page */
 
-a:hover {
-  transition: 1s;
-  text-decoration: underline;
+  .contact-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .link-divs {
+    text-align: center;
+  }
+
+  a:hover {
+    transition: 1s;
+    text-decoration: underline;
+  }
 }
